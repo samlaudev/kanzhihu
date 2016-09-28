@@ -1,0 +1,4 @@
+target 'KanZhiHu' do
+  pod 'Mantle', '~> 2.0.7'
+  pod 'Masonry', '~> 1.0.1'
+end

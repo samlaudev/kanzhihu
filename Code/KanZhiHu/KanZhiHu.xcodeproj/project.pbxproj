@@ -1,0 +1,642 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A07F76D1D9BA54200476BB5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A07F76C1D9BA54200476BB5 /* main.m */; };
+		1A07F7761D9BA54200476BB5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A07F7741D9BA54200476BB5 /* Main.storyboard */; };
+		1A07F7781D9BA54200476BB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A07F7771D9BA54200476BB5 /* Assets.xcassets */; };
+		1A07F77B1D9BA54200476BB5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A07F7791D9BA54200476BB5 /* LaunchScreen.storyboard */; };
+		1A07F7861D9BA54200476BB5 /* KanZhiHuTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A07F7851D9BA54200476BB5 /* KanZhiHuTests.m */; };
+		1AF2DA461D9BBE04008CE58B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AF2DA3A1D9BBE04008CE58B /* AppDelegate.m */; };
+		C35E3244FD36490F0A64E806 /* libPods-KanZhiHu.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CEBD3C3A73EE9CCFB8BDEA8 /* libPods-KanZhiHu.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1A07F7821D9BA54200476BB5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A07F7601D9BA54200476BB5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A07F7671D9BA54200476BB5;
+			remoteInfo = KanZhiHu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01D9AB54400F285DC80669F4 /* Pods-KanZhiHu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KanZhiHu.release.xcconfig"; path = "Pods/Target Support Files/Pods-KanZhiHu/Pods-KanZhiHu.release.xcconfig"; sourceTree = "<group>"; };
+		1A07F7681D9BA54200476BB5 /* KanZhiHu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KanZhiHu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A07F76C1D9BA54200476BB5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1A07F7751D9BA54200476BB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1A07F7771D9BA54200476BB5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1A07F77A1D9BA54200476BB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1A07F77C1D9BA54200476BB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A07F7811D9BA54200476BB5 /* KanZhiHuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KanZhiHuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A07F7851D9BA54200476BB5 /* KanZhiHuTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KanZhiHuTests.m; sourceTree = "<group>"; };
+		1A07F7871D9BA54200476BB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AF2DA391D9BBE04008CE58B /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1AF2DA3A1D9BBE04008CE58B /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3CEBD3C3A73EE9CCFB8BDEA8 /* libPods-KanZhiHu.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KanZhiHu.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C41215DABD8BB80329823A83 /* Pods-KanZhiHu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KanZhiHu.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KanZhiHu/Pods-KanZhiHu.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A07F7651D9BA54200476BB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C35E3244FD36490F0A64E806 /* libPods-KanZhiHu.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A07F77E1D9BA54200476BB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A07F75F1D9BA54200476BB5 = {
+			isa = PBXGroup;
+			children = (
+				1A07F76A1D9BA54200476BB5 /* KanZhiHu */,
+				1A07F7841D9BA54200476BB5 /* KanZhiHuTests */,
+				1A07F7691D9BA54200476BB5 /* Products */,
+				4F44521900073C6C4AB7F73C /* Pods */,
+				AC156181BF4674B6D970A193 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1A07F7691D9BA54200476BB5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A07F7681D9BA54200476BB5 /* KanZhiHu.app */,
+				1A07F7811D9BA54200476BB5 /* KanZhiHuTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A07F76A1D9BA54200476BB5 /* KanZhiHu */ = {
+			isa = PBXGroup;
+			children = (
+				1AF2DA381D9BBE04008CE58B /* AppDelegate */,
+				1AF2DA3B1D9BBE04008CE58B /* General */,
+				1AF2DA411D9BBE04008CE58B /* Helpers */,
+				1AF2DA421D9BBE04008CE58B /* Macro */,
+				1AF2DA431D9BBE04008CE58B /* Resources */,
+				1AF2DA441D9BBE04008CE58B /* Sections */,
+				1AF2DA451D9BBE04008CE58B /* Vendor */,
+				1A07F7741D9BA54200476BB5 /* Main.storyboard */,
+				1A07F7771D9BA54200476BB5 /* Assets.xcassets */,
+				1A07F7791D9BA54200476BB5 /* LaunchScreen.storyboard */,
+				1A07F77C1D9BA54200476BB5 /* Info.plist */,
+				1A07F76B1D9BA54200476BB5 /* Supporting Files */,
+			);
+			path = KanZhiHu;
+			sourceTree = "<group>";
+		};
+		1A07F76B1D9BA54200476BB5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1A07F76C1D9BA54200476BB5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1A07F7841D9BA54200476BB5 /* KanZhiHuTests */ = {
+			isa = PBXGroup;
+			children = (
+				1A07F7851D9BA54200476BB5 /* KanZhiHuTests.m */,
+				1A07F7871D9BA54200476BB5 /* Info.plist */,
+			);
+			path = KanZhiHuTests;
+			sourceTree = "<group>";
+		};
+		1AF2DA381D9BBE04008CE58B /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				1AF2DA391D9BBE04008CE58B /* AppDelegate.h */,
+				1AF2DA3A1D9BBE04008CE58B /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		1AF2DA3B1D9BBE04008CE58B /* General */ = {
+			isa = PBXGroup;
+			children = (
+				1AF2DA3C1D9BBE04008CE58B /* Categories */,
+				1AF2DA3D1D9BBE04008CE58B /* Cells */,
+				1AF2DA3E1D9BBE04008CE58B /* Controllers */,
+				1AF2DA3F1D9BBE04008CE58B /* DataSources */,
+				1AF2DA401D9BBE04008CE58B /* Views */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+		1AF2DA3C1D9BBE04008CE58B /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		1AF2DA3D1D9BBE04008CE58B /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		1AF2DA3E1D9BBE04008CE58B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		1AF2DA3F1D9BBE04008CE58B /* DataSources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DataSources;
+			sourceTree = "<group>";
+		};
+		1AF2DA401D9BBE04008CE58B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1AF2DA411D9BBE04008CE58B /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		1AF2DA421D9BBE04008CE58B /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Macro;
+			sourceTree = "<group>";
+		};
+		1AF2DA431D9BBE04008CE58B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		1AF2DA441D9BBE04008CE58B /* Sections */ = {
+			isa = PBXGroup;
+			children = (
+				1AF2DA471D9BC2F5008CE58B /* Home */,
+			);
+			path = Sections;
+			sourceTree = "<group>";
+		};
+		1AF2DA451D9BBE04008CE58B /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		1AF2DA471D9BC2F5008CE58B /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		4F44521900073C6C4AB7F73C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C41215DABD8BB80329823A83 /* Pods-KanZhiHu.debug.xcconfig */,
+				01D9AB54400F285DC80669F4 /* Pods-KanZhiHu.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AC156181BF4674B6D970A193 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3CEBD3C3A73EE9CCFB8BDEA8 /* libPods-KanZhiHu.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1A07F7671D9BA54200476BB5 /* KanZhiHu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A07F78A1D9BA54200476BB5 /* Build configuration list for PBXNativeTarget "KanZhiHu" */;
+			buildPhases = (
+				A53751D3539945A0D13DB480 /* 📦 Check Pods Manifest.lock */,
+				1A07F7641D9BA54200476BB5 /* Sources */,
+				1A07F7651D9BA54200476BB5 /* Frameworks */,
+				1A07F7661D9BA54200476BB5 /* Resources */,
+				DE616469290737535D4DF8FF /* 📦 Embed Pods Frameworks */,
+				8AFF72356F741212DA1E2456 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KanZhiHu;
+			productName = KanZhiHu;
+			productReference = 1A07F7681D9BA54200476BB5 /* KanZhiHu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1A07F7801D9BA54200476BB5 /* KanZhiHuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A07F78D1D9BA54200476BB5 /* Build configuration list for PBXNativeTarget "KanZhiHuTests" */;
+			buildPhases = (
+				1A07F77D1D9BA54200476BB5 /* Sources */,
+				1A07F77E1D9BA54200476BB5 /* Frameworks */,
+				1A07F77F1D9BA54200476BB5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A07F7831D9BA54200476BB5 /* PBXTargetDependency */,
+			);
+			name = KanZhiHuTests;
+			productName = KanZhiHuTests;
+			productReference = 1A07F7811D9BA54200476BB5 /* KanZhiHuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A07F7601D9BA54200476BB5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Sam Lau";
+				TargetAttributes = {
+					1A07F7671D9BA54200476BB5 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 5V2BL643LV;
+						ProvisioningStyle = Automatic;
+					};
+					1A07F7801D9BA54200476BB5 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 5V2BL643LV;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1A07F7671D9BA54200476BB5;
+					};
+				};
+			};
+			buildConfigurationList = 1A07F7631D9BA54200476BB5 /* Build configuration list for PBXProject "KanZhiHu" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1A07F75F1D9BA54200476BB5;
+			productRefGroup = 1A07F7691D9BA54200476BB5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A07F7671D9BA54200476BB5 /* KanZhiHu */,
+				1A07F7801D9BA54200476BB5 /* KanZhiHuTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A07F7661D9BA54200476BB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A07F77B1D9BA54200476BB5 /* LaunchScreen.storyboard in Resources */,
+				1A07F7781D9BA54200476BB5 /* Assets.xcassets in Resources */,
+				1A07F7761D9BA54200476BB5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A07F77F1D9BA54200476BB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8AFF72356F741212DA1E2456 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KanZhiHu/Pods-KanZhiHu-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A53751D3539945A0D13DB480 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DE616469290737535D4DF8FF /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KanZhiHu/Pods-KanZhiHu-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A07F7641D9BA54200476BB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A07F76D1D9BA54200476BB5 /* main.m in Sources */,
+				1AF2DA461D9BBE04008CE58B /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A07F77D1D9BA54200476BB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A07F7861D9BA54200476BB5 /* KanZhiHuTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1A07F7831D9BA54200476BB5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A07F7671D9BA54200476BB5 /* KanZhiHu */;
+			targetProxy = 1A07F7821D9BA54200476BB5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1A07F7741D9BA54200476BB5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A07F7751D9BA54200476BB5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1A07F7791D9BA54200476BB5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A07F77A1D9BA54200476BB5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1A07F7881D9BA54200476BB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1A07F7891D9BA54200476BB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1A07F78B1D9BA54200476BB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C41215DABD8BB80329823A83 /* Pods-KanZhiHu.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5V2BL643LV;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				INFOPLIST_FILE = KanZhiHu/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/Mantle\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/IQKeyboardManager\"",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"UIKit\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.samlaudev.KanZhiHu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		1A07F78C1D9BA54200476BB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01D9AB54400F285DC80669F4 /* Pods-KanZhiHu.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5V2BL643LV;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				INFOPLIST_FILE = KanZhiHu/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"Mantle\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"UIKit\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.samlaudev.KanZhiHu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		1A07F78E1D9BA54200476BB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 5V2BL643LV;
+				INFOPLIST_FILE = KanZhiHuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.samlaudev.KanZhiHuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KanZhiHu.app/KanZhiHu";
+			};
+			name = Debug;
+		};
+		1A07F78F1D9BA54200476BB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 5V2BL643LV;
+				INFOPLIST_FILE = KanZhiHuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.samlaudev.KanZhiHuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KanZhiHu.app/KanZhiHu";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A07F7631D9BA54200476BB5 /* Build configuration list for PBXProject "KanZhiHu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A07F7881D9BA54200476BB5 /* Debug */,
+				1A07F7891D9BA54200476BB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A07F78A1D9BA54200476BB5 /* Build configuration list for PBXNativeTarget "KanZhiHu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A07F78B1D9BA54200476BB5 /* Debug */,
+				1A07F78C1D9BA54200476BB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A07F78D1D9BA54200476BB5 /* Build configuration list for PBXNativeTarget "KanZhiHuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A07F78E1D9BA54200476BB5 /* Debug */,
+				1A07F78F1D9BA54200476BB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1A07F7601D9BA54200476BB5 /* Project object */;
+}
